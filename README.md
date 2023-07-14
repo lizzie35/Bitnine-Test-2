@@ -35,7 +35,6 @@ Follow these steps to compile the source code for each approach:
 2. Navigate to the directory where the source code file (fibonacci_dynamic.c) is located.
 3. Run the following command to compile the code:
 
-shell
 gcc -o fibonacci_dynamic fibonacci_dynamic.c
 
 This command uses GCC to compile the source code and generates an executable file named fibonacci_dynamic.
@@ -45,7 +44,6 @@ This command uses GCC to compile the source code and generates an executable fil
 2. Navigate to the directory where the source code file (fibonacci_memoize.c) is located.
 3. Run the following command to compile the code:
 
-shell
 gcc -o fibonacci_memoize fibonacci_memoize.c
 
 This command uses GCC to compile the source code and generates an executable file named fibonacci_memoize.
@@ -55,13 +53,10 @@ Once you have compiled the source code for each approach, you can run the progra
 
 1. In the same terminal or command prompt, execute the following command for each approach:
 
-shell
 ./fibonacci_recursive
 
-shell
 ./fibonacci_dynamic
 
-shell
 ./fibonacci_memoize
 
 These commands run the respective compiled programs.
